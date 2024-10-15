@@ -30,3 +30,28 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello World")
 }
+
+// ---------------------------------------
+
+// Memories in Java Script
+// Stack (Primitive), Heap (non primitives)
+
+let myFirstName = "Nikhil"
+
+let myAnotherName = "Kabir"
+myAnotherName = "Nik1234"
+
+// console.log(myFirstName);
+// console.log(myAnotherName);
+
+let userOne = {
+    email : 'nik.test@mail.com',
+    name : 'Kabir',
+    age : 25
+}
+let userTwo = userOne
+userTwo.name = "Nikhil"
+
+console.log(userOne.name);
+console.log(userTwo.name);
+
