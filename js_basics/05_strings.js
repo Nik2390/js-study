@@ -23,3 +23,4 @@ console.log(newStringOne.trim());
 
 const url = "https://nikhil.com/nikhil%20borkar"
 console.log(url.replace('%20', '-'))
+
